@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Laundry</title>
+</head>
+<body>
+    <a href="/laundries"><button>Back</button></a>
+    
+    <h1>Edit Laundry <%=laundries.name%></h1>
+    <form action="/laundries/edit/<%=laundries.id%>" method="post">
+        <div>
+            <label>Name:</label>
+            <input type="text" name="name" value="<%=laundries.name%>">
+        </div>
+        <div>
+            <label>Address:</label>
+            <input type="text" name="address" value="<%=laundries.address%>">
+        </div>
+        <br>
+        <input type="submit" value = "Edit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://unpkg.com/easyinvoice/dist/easyinvoice.min.js"></script> -->
+    <style>
+        #pdf {
+            text-align: center;
+        }
+
+        #pdf canvas {
+            border: 1px solid black;
+            width: 95%;
+        }
+    </style>
+    <title>Order</title>
+</head>
+
+<body>
+    <!-- <script>
+        var data = {};
+        easyinvoice.createInvoice(data, function (result) {
+            // The response will contain a base64 encoded PDF file
+            console.log('PDF base64 string: ', result.pdf);
+
+            // Now this result can be used to save, download or render your invoice
+            // Please review the documentation below on how to do this
+        });
+    </script> -->
+
+    <a href="/home"><button>Home</button></a>||
+    <a href="/laundries"><button>Laundry</button></a>||
+    <a href="/orders"><button>Order</button></a>||
+    <a href="/logout"><button>Log Out</button></a>
+
+    <table border="1">
+        <tr>
+            <td>order number</td>
+            <td>pick up</td>
+            <td>estimated day</td>
+            <td>total price</td>
+            <td>weight</td>
+            <td>order status</td>
+            <td>payment status</td>
+            <td>user id</td>
+            <td>laundry name</td>
+        </tr>
+        <% orders.forEach(el=> {%>
+            <%=orders.weight%>
+                <tr>
+                    <td>
+                        <%=el.orderNumber%>
+                    </td>
+                    <td>
+                        <%=el.pickUpLocation%>
+                    </td>
+                    <td>
+                        <%=el.calculatedDay%>
+                    </td>
+                    <td>
+                        <%= formatCurrency(el.totalPrice)%>
+                    </td>
+                    <td>
+                        <%=el.weight%>
+                    </td>
+                    <td>
+                        <%=el.orderStatus%>
+                    </td>
+                    <td>
+                        <%=el.paymentStatus%>
+                    </td>
+                    <td>
+                        <%=el.UserId%>
+                    </td>
+                    <td>
+                        <%=el.Laundry.name%>
+                    </td>
+                </tr>
+                <%})%>
+    </table>
+
+    
+    <br>
+</body>
+
+</html>

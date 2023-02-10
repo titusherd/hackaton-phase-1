@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Londri Murah",
+        "address": "Jl. Kemerdakan, No.79, Cidadap, Bandung",
+        "UserId": 2
+    },
+    {
+        "id": 2,
+        "name": "Promise londri",
+        "address": "Jl. Pegangsaan Timur, No.20, Cibiru",
+        "UserId": 2
+    },
+    {
+        "id": 3,
+        "name": "My Londri",
+        "address": "Jl. Mangga, No.40, Hegarmanah",
+        "UserId": 4
+    }
+]

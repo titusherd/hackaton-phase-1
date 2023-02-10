@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Order</title>
+</head>
+<body>
+    <h1>Add New Order</h1>
+    
+
+    <% if (errors) { %>
+        <p style="color: red;">
+            <%= errors %> 
+        </p>
+    <% } %>
+    
+
+    <br>
+    <br>
+    <form action="/orders/add" method="post">
+        <div>
+            <label>Pick up Location:</label>
+            <select name="pickUpLocation">
+              <option value="" selected disabled>Choose...</option>
+              <% laundries.forEach(el => { %>
+                <option value="<%=el.address%>"><%= el.address %></option>
+              <% }) %>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Berat Pakaian </label>
+            <input type="number" name="weight">
+        </div>
+        <div>
+            <label>Pick up Location:</label>
+            <select name="paymentStatus">
+              <option value="" selected disabled>Choose...</option>
+              <% laundries.forEach(el => { %>
+                <option value="<%=el.address%>"><%= el.address %></option>
+              <% }) %>
+            </select>
+        </div>
+        <br>
+        <input type="submit" value="Add New Order">
+        
+    </form>
+    <br>
+    <a href="/orders"><button>Back</button></a>
+    
+</body>
+</html>

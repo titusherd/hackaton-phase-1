@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry</title>
+</head>
+
+<body>
+    <a href="/home"><button>Home</button></a>||
+    <a href="/laundries"><button>Laundry</button></a>||
+    <a href="/orders"><button>Order</button></a>||
+    <a href="/logout"><button>Log Out</button></a>
+    <br>
+    <br>
+    <a href="/laundries/add" method=get><button>Add Laundry</button></a>
+    <a href="/laundries/?order=name"><button>Sort By Name</button></a>
+    <br>
+    <br>
+
+    <table border="1">
+        <tr>
+            <td>name</td>
+            <td>address</td>
+            <td>action</td>
+        </tr>
+        <% laundries.forEach(el=> {%>
+            <tr>
+                <td>
+                    <%=el.name%>
+                </td>
+                <td>
+                    <%=el.address%>
+                </td>
+                <td>
+                    <a href="/laundries/edit/<%=el.id%>"><button>Edit</button></a>
+                    <a href="/laundries/delete/<%=el.id%>"><button>Delete</button></a>
+                </td>
+            </tr>
+            <%})%>
+    </table>
+
+</body>
+
+</html>

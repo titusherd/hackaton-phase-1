@@ -1,0 +1,53 @@
+[
+    {
+        "email": "gsnowding0@yandex.ru",
+        "password": "G1S7PE",
+        "role": "customer"
+    },
+    {
+        "email": "esimoni1@joomla.org",
+        "password": "e74XtGJu",
+        "role": "customer"
+        
+    },
+    {
+        "email": "plansdown2@tripod.com",
+        "password": "22iQ0tFdiG",
+        "role": "customer"
+    },
+    {
+        "email": "tmacalees3@nps.gov",
+        "password": "jS0IVh0Zn",
+        "role": "customer"
+    },
+    {
+        "email": "lvines4@fotki.com",
+        "password": "IAuTDb",
+        "role": "customer"
+    },
+    {
+        "email": "ltrickett5@sfgate.com",
+        "password": "iD9qcoIPQsZg",
+        "role": "manager"
+    },
+    {
+        "email": "mdavenport6@deviantart.com",
+        "password": "fu5keLH1",
+        "role": "manager"
+    },
+    {
+        "email": "adunckley7@wisc.edu",
+        "password": "vYKkqOLe7iI",
+        "role": "manager"
+    },
+    {
+        "email": "khintzer8@sciencedaily.com",
+        "password": "4uv4okLOWYuQ",
+        "role": "manager"
+    },
+    {
+        "email": "mcunio9@msn.com",
+        "password": "7dxr5I",
+        "role": "manager"
+    }
+]

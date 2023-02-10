@@ -1,0 +1,122 @@
+[
+    {
+        "orderNumber": 1,
+        "pickUpLocation": "1805 Continental Street",
+        "date": "2023-02-02",
+        "finishedDate": "2023-02-10",
+        "totalPrice": 67631,
+        "weight": 1,
+        "orderStatus": false,
+        "paymentStatus": false,
+        "LaundryId": 1,
+        "UserId": 5
+    },
+    {
+        "orderNumber": 2,
+        "pickUpLocation": "29793 Schurz Drive",
+        "date": "2023-02-02",
+        "finishedDate": "2023-02-11",
+        "totalPrice": 17617,
+        "weight": 9,
+        "orderStatus": false,
+        "paymentStatus": false,
+        "LaundryId": 3,
+        "UserId": 1
+    },
+    {
+        "orderNumber": 3,
+        "pickUpLocation": "020 Tennyson Circle",
+        "date": "2023-02-07",
+        "finishedDate": "2023-02-11",
+        "totalPrice": 32218,
+        "weight": 10,
+        "orderStatus": true,
+        "paymentStatus": true,
+        "LaundryId": 2,
+        "UserId": 4
+    },
+    {
+        "orderNumber": 4,
+        "pickUpLocation": "33 Little Fleur Plaza",
+        "date": "2023-02-05",
+        "finishedDate": "2023-02-10",
+        "totalPrice": 36656,
+        "weight": 9,
+        "orderStatus": false,
+        "paymentStatus": false,
+        "LaundryId": 3,
+        "UserId": 5
+    },
+    {
+        "orderNumber": 5,
+        "pickUpLocation": "8957 Bobwhite Street",
+        "date": "2023-02-06",
+        "finishedDate": "2023-02-10",
+        "totalPrice": 27614,
+        "weight": 5,
+        "orderStatus": true,
+        "paymentStatus": false,
+        "LaundryId": 1,
+        "UserId": 5
+    },
+    {
+        "orderNumber": 6,
+        "pickUpLocation": "58 Ryan Plaza",
+        "date": "2023-02-02",
+        "finishedDate": "2023-02-10",
+        "totalPrice": 95197,
+        "weight": 8,
+        "orderStatus": false,
+        "paymentStatus": true,
+        "LaundryId": 2,
+        "UserId": 4
+    },
+    {
+        "orderNumber": 7,
+        "pickUpLocation": "9 Everett Park",
+        "date": "2023-02-07",
+        "finishedDate": "2023-02-10",
+        "totalPrice": 26116,
+        "weight": 6,
+        "orderStatus": false,
+        "paymentStatus": false,
+        "LaundryId": 2,
+        "UserId": 4
+    },
+    {
+        "orderNumber": 8,
+        "pickUpLocation": "572 Lerdahl Pass",
+        "date": "2023-02-01",
+        "finishedDate": "2023-02-10",
+        "totalPrice": 12225,
+        "weight": 5,
+        "orderStatus": true,
+        "paymentStatus": false,
+        "LaundryId": 3,
+        "UserId": 5
+    },
+    {
+        "orderNumber": 9,
+        "pickUpLocation": "4 Shopko Circle",
+        "date": "2023-02-01",
+        "finishedDate": "2023-02-09",
+        "totalPrice": 87635,
+        "weight": 5,
+        "orderStatus": false,
+        "paymentStatus": true,
+        "LaundryId": 1,
+        "UserId": 5
+    },
+    {
+        "orderNumber": 10,
+        "pickUpLocation": "3182 Lotheville Point",
+        "date": "2023-02-05",
+        "finishedDate": "2023-02-11",
+        "totalPrice": 59609,
+        "weight": 1,
+        "orderStatus": true,
+        "paymentStatus": true,
+        "LaundryId": 3,
+        "UserId": 2
+    }
+]

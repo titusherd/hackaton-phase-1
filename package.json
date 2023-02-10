@@ -1,0 +1,33 @@
+{
+  "name": "pair-programming-phase-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titusherd/pair-programming-phase-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/titusherd/pair-programming-phase-1/issues"
+  },
+  "homepage": "https://github.com/titusherd/pair-programming-phase-1#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "easyinvoice": "^2.3.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
+  }
+}
